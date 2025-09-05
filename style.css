@@ -1,37 +1,43 @@
-
-body { 
-    background-color: maroon;
-    font-family:  Calibri;
-}
-li { color:gold;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.cool-text  { 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;
-    color: gold
-
+body {
+  background-color: maroon;
+  font-family: Calibri;
+}
+li {
+  color: gold;
 }
 
-.cool-text:hover { 
-    color: white;
+.cool-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  color: gold;
+}
+
+.cool-text:hover {
+  color: white;
 }
 
 .cta-button {
-height: 80px;
-width: 100px;
-color: gold;
-background-color: black;
-border-radius: 30px;
-padding: 10px;
-
+  height: 80px;
+  width: 100px;
+  color: gold;
+  background-color: black;
+  border-radius: 30px;
+  padding: 10px;
 }
 
-.feature   { 
-    height: 100vh;
+.feature {
+  height: 100vh;
 }
 .RanniTheWitch {
-    background-image: url("./images/RanniTheWitch.jpg");
+  background-image: url("./images/RanniTheWitch.jpg");
+}
 
+.StarscourgeRadahn {
+  background-image: url("./images/ScourscourgeRadahn.jpeg");
 }
