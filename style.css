@@ -44,8 +44,14 @@ li {
 .malenia {
   background-image: url(./images/malenia.jpg);
 }
-.image-container {
-  background: pink;
-  height: 100px;
-  width: 50px;
+
+.box {
+  background-color: gold;
+}
+
+.two {
+  background-color: gold;
+}
+.three {
+  background-color: gold;
 }
