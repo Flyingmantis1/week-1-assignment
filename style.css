@@ -46,7 +46,11 @@ li {
 }
 
 .box {
+  display: flex;
+  flex-direction: row;
   background-color: gold;
+  justify-content: center;
+  align-items: column;
 }
 
 .two {
@@ -54,7 +58,4 @@ li {
 }
 .three {
   background-color: gold;
-}
-.container {
-  display: flex;
 }
